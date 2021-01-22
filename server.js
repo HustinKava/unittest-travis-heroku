@@ -12,11 +12,10 @@ require('./controller/api-routes')(app);
 
 const server = app.listen(PORT, () => {
     // eslint-disable-next-line no-console
-    // you will need to fix this line and the line below once you run the eslint test
     console.log('My app running on port ', PORT);
 });
 
 // eslint-disable-next-line no-console
-console.log('server.js: file has finished reading');
+// console.log('server = ', server);
 
 module.exports = server;
