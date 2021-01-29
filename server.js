@@ -17,5 +17,4 @@ const server = app.listen(PORT, () => {
 
 // eslint-disable-next-line no-console
 // console.log('server = ', server);
-// test
 module.exports = server;
