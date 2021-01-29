@@ -4,7 +4,7 @@ module.exports = (app) => {
         // eslint-disable-next-line no-console
         console.log('value of req = \n', req);
 
-        res.send('Hello World Hi');
+        res.send('Hello World Hi again');
     };
     app.get("/", responseFn);
 
