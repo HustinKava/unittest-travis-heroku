@@ -9,7 +9,7 @@ deploy:
   provider: heroku
   api_key:
     secure: Ii70W3zIJMbDKqbkZWJBFIxR3CwAHa1bxvRl4t0I2XXfy0BRwkCfBbfD9UCBbbPu8/WZwvG8K2QV4NLrzfILT+BOxVD2+CziuUBcGL1FvjG5OZ0wsctZLKLIO8xacuBGI3MRnBeLujQEKBaivbEVViZBL7/1h5g3Qi9SGbJBdoxrltWDmgh/ep1pKF2OauOzmSgT+otDL3NEHwPglhVA21cyWzybAFG03/O2idjLJTpCn6kIkfbrO+OSqZEGmquo0sPLlT52X2M/4yTKYjTL62uJPmHtfdFjlx1NT5+67X94n9k1evb+MJyyIWnNyft/tfmIdKorXAbjXNY5C4oQ1KhBgnXPSYP7LsNgZImjXyYEFG/fHmYYu6iFitBlRg8M39NJm159hWowcTTJS8HJIA04KQj45pAJtfdy5U2l7XuPX5l2RSrLGVdpMtf84fAV6rxhauBMhgKHXZfzqenX8YTZ6A0s259fD/CFcTl8/nqiBVLpUgwLSUhG9FzEkF1qxAM+vQ21FnqDBe9UmAmWRbvDdXt2IKRMmX5sMBp80Tv/sO/117+njGTcfdyOMmezBrBjSX/ivG9AW5QnppFUFzbRTVvEzbFBoFF1fASkSdbGb1wHJPQLKuBrEZ/t3cNJHAxSijgsDmOjHjtivKPbQg+xtyhCeOTlW+vYhTraCDM=
-  app: unittest-travis-heroku
+  app: arcane-mountain-60762
   on:
     repo: HustinKava/unittest-travis-heroku
   skip_cleanup: 'true'
