@@ -1,4 +1,7 @@
 language: node_js
+branches:
+  only:
+  - master
 node_js:
 - stable
 npm: true
@@ -9,7 +12,8 @@ deploy:
   provider: heroku
   api_key:
     secure: n9TUBgnFkqIin8xnOBj4SpNuEJTJd6bH1B1SWuSS7/5X/xFIlzBITvC3gs3fwD49v+7jIc2oaZua1CsfiH3bVBAJGZpYlXW4yq5NgRWaJXciTmokWEiro4t++YIkPl/jJro50ydR39Aoc+ykWEYg82FgvSsDG1ZZ4XLbSU7KC50ziBVREjcKvRtfEtzIsPoSzyLYZwalppxvj/NVnuMEIeKX/vFLwNVjABk50mbFx1R7Eed5iLGYeKCa/HZj6JoJfG7IFXCnM+JhzAFmf8psGTiG883gXvJYsxsLUhn9dQgSzdmNzrGyjCYbD5KJ6UmilxZ/TRJcZGaCJ4VRyTILPxB3JRNx+LpLftPS7iGUEc8t2FG9x5OwZ+Xf/9pFE0bXHck3GG7mjIoiRiSp8qtlfhf/UoCFtHilBCpjiich828GQPzj+pxh2eyPebdLjz7fpsOBO3uPKPry83nUnNXZrwGFmqEZaHvY6bDQk1uihwZ00TBd7hiO7rWLryvhZzRzls54r/UYhU+RJfgoJqw0RHS/LTR66DE7/JdN+1hubG5a/GVrnwZGtzlg8ldeGryZBQYDJgUR2t6M6Ru1pNRfnIEJoOeUSavzYCXXH3Xiz8fcGAX3Upo6CTVA0FG24hTJQ1L59+JKuXuxBxiyLOkMoz8tYDLF2BU8vDHXlC//HM8=
-  app: unittest-travis-heroku
+  app: arcane-mountain-60762
   on:
     repo: HustinKava/unittest-travis-heroku
+    branch: master
   skip_cleanup: 'true'
